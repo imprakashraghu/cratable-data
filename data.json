@@ -134,6 +134,20 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": 4,
+            "title": "Cloud",
+            "key": "cloud",
+            "description": "Become a Cloud Engineer",
+            "modules": [
+                {
+                    "id": 125,
+                    "title": "AWS",
+                    "key": "amazon-web-services",
+                    "description": "Learn Amazon Web Services and start practising"
+                }
+            ]
         }
     ],
     "modules": [
@@ -1407,6 +1421,59 @@
                 {
                     "title": "Start trying out designs with figma",
                     "url": "https://figma.com"
+                }
+            ]
+        },
+        {
+            "id": 128,
+            "key": "amazon-web-services",
+            "title": "Amazon Web Services",
+            "category": 4,
+            "description": "Explore and learn about the various services provided by amazon that makes life much simpler.",
+            "popularity": "Must Needed in 2022",
+            "stableVersion": null,
+            "download": [
+                {
+                    "title": "Good Browser (suggestion: Google Chrome)",
+                    "url" : "https://www.google.com/chrome/"
+                }
+            ],
+            "knowledge": [
+                {
+                    "title": "Basics of programming",
+                    "url": null,
+                    "key": "basics-programming"
+                },
+                {
+                    "title": "What is a cloud?",
+                    "url": "https://www.youtube.com/watch?v=4OO77HFcCUs"
+                },
+                {
+                    "title": "Overview of AWS Services",
+                    "url": "https://www.youtube.com/watch?v=Z3SYDTMP3ME"
+                },
+                {
+                    "title": "AWS Account Creation",
+                    "url": "https://progressivecoder.com/creating-an-aws-account-a-step-by-step-process-guide/"
+                }
+            ],
+            "tutorials": {
+                "blogs": ["https://aws.amazon.com/getting-started/hands-on/?getting-started-all.sort-by=item.additionalFields.sortOrder&getting-started-all.sort-order=asc&awsf.getting-started-category=*all&awsf.getting-started-level=*all&awsf.getting-started-content-type=*all", "https://www.javatpoint.com/aws-tutorial"],
+                "youtube": ["https://youtube.com/playlist?list=PLt1SIbA8guuvvqyRA7BJMrSVtsrGD8fvo", "https://www.youtube.com/watch?v=uQdzcIf_KII"],
+                "udemy": ["https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c02/"]
+            },
+            "steps": [
+                {
+                    "title": "Create your free tier account in aws"
+                },
+                {
+                    "title": "Learn What services they provide and each of their uses"
+                },
+                {
+                    "title": "Learn One service and master it"
+                },
+                {
+                    "title": "Have hands-on practise with the services you learn."
                 }
             ]
         }
